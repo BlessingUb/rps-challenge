@@ -2,7 +2,7 @@
 feature 'has a homepage' do 
   scenario ' it has a home page' do 
     visit('/')
-    expect(page).to have_field('player_name')
+    expect(page).to have_field('name')
   end 
 end
 

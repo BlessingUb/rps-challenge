@@ -1,10 +1,9 @@
-class Prayer
+class Player
 
-  attr_reader :player_name, :choice 
+  attr_reader :name, :choice 
 
-  def initialize
-    @player_name = name 
-    @choice = choice 
+  def initialize(player_name)
+    @name = player_name  
   end
 
   def select(choice)
